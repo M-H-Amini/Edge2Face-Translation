@@ -8,3 +8,8 @@ The codes are based on Pix2Pix implementation of **Image-to-Image Translation wi
 The dataset is prepared with a modification to the *celeba* dataset to make it like sketch. I've acutally, extracted the edges there.
 
 After that, Pix2Pix is trained on the real/sketch pairs.
+
+#  Results
+After some epochs, it seems it has learned something. The first column is the input to the Pix2Pix, the second column is the ground truth, and the third one is the Pix2Pix output.
+
+<img src="figures/results.jpg">
